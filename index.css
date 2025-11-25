@@ -87,7 +87,7 @@ border-radius: 15px;
 section{
 display: flex;
 flex-direction: row;
-flex-wrap: nowrap;
+flex-wrap: wrap;
 justify-content: center;
 padding: 5px;
 
@@ -112,5 +112,41 @@ text-shadow: black;
 
 }
 .nav-links a{
+    color: rgb(255, 255, 255);
+}
+
+.legals{width: 220px;
+border-radius: 15px;
+padding: 15px;
+height: 150px;
+
+}
+.footer {
+    background-color: #737274; 
     color: rgb(0, 0, 0);
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer h2 {
+    margin: 0;
+    font-size: 22px;
+    letter-spacing: 2px;
+}
+
+.footer p {
+    margin: 8px 0;
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+.footer-links a {
+    color: #000000;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer-links a:hover {
+    color: #000000;
 }
