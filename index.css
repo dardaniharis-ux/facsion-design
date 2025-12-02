@@ -1,0 +1,152 @@
+header{
+background-color: rgb(122, 121, 121);
+display: flex;
+flex-direction: row;
+flex-wrap: nowrap;
+justify-content: left;
+color: red;
+}
+
+header img{
+width: 150px;
+height: 150px;
+border-radius: 15px;
+padding: 15px;
+}
+div{
+text-align: center;
+color: black;
+}
+.div{
+    color: black;
+}
+.navbar{
+display: flex;
+flex-direction: row;
+flex-wrap: nowrap;
+color: black;
+}
+.buttons{
+display: flex;
+flex-direction: row;
+flex-wrap: nowrap;
+align-items: end;
+}
+button{
+background-color: rgb(234, 231, 236);
+padding: 7px;
+color: rgb(0, 0, 0);
+margin: 5px;
+border-radius: 15px;
+}
+button{
+background-color: rgb(234, 231, 236);
+padding: 7px;
+color: #000000;
+margin: 5px;
+border-radius: 15px;
+}
+button{
+    color: #000000;
+}
+button:hover{
+    
+padding: 9px;
+color: rgb(248, 248, 242);
+background-color: rgb(190, 111, 13);
+}
+footer{
+background-color: rgb(17, 17, 18);
+color: antiquewhite;
+display: flex;
+flex-direction: row;
+flex-wrap: nowrap;
+justify-content: space-around;
+}
+.aboutus{
+display: flex;
+flex-direction: column;
+flex-wrap: nowrap;
+}
+.legals{
+
+
+display: flex;
+flex-direction: column;
+flex-wrap: nowrap;
+}
+footer a{
+color: aliceblue;
+text-decoration: 5px;
+color: rgb(231, 235, 235);
+}
+section img{
+width: 220px;
+border-radius: 15px;
+}
+section{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+padding: 5px;
+
+
+}
+section div{
+
+margin: 10px;
+padding: 5px;
+border: 1px solid burlywood;
+border-radius: 15px;
+text-align: center;
+}
+.njoftim{
+display: flex;
+flex-direction: column;
+flex-wrap: nowrap;
+align-items: center;
+background-color: bisque;
+color: aliceblue;
+text-shadow: black;
+
+}
+.nav-links a{
+    color: rgb(255, 255, 255);
+}
+
+.legals{width: 220px;
+border-radius: 15px;
+padding: 15px;
+height: 150px;
+
+}
+.footer {
+    background-color: #737274; 
+    color: rgb(0, 0, 0);
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer h2 {
+    margin: 0;
+    font-size: 22px;
+    letter-spacing: 2px;
+}
+
+.footer p {
+    margin: 8px 0;
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+.footer-links a {
+    color: #000000;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer-links a:hover {
+    color: #000000;
+}
