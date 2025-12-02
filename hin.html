@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="sq">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login & Signup</title>
+    <link rel="stylesheet" href="hin.css">
+</head>
+<body>
+
+<div class="container">
+
+   
+    <div class="form login">
+        <h2>Hyr😄</h2>
+        <form>
+            <div class="input-box">
+                <input type="email" placeholder="Email" required>
+            </div>
+
+            <div class="input-box">
+                <input type="password" placeholder="Fjalëkalimi" required>
+            </div>
+
+            <button type="submit" class="btn">Hyr</button>
+
+            <p class="switch">Nuk ke llogari? 
+                <a href="#" onclick="showSignup()">Regjistrohu</a>
+            </p>
+        </form>
+    </div>
+
+    <div class="form signup hidden">
+        <h2>Regjistrohu😊</h2>
+        <form>
+            <div class="input-box">
+                <input type="text" placeholder="Emri" required>
+            </div>
+
+            <div class="input-box">
+                <input type="text" placeholder="Mbiemri" required>
+            </div>
+
+            <div class="input-box">
+                <input type="email" placeholder="Email" required>
+            </div>
+
+            <div class="input-box">
+                <input type="password" placeholder="Fjalëkalimi" required>
+            </div>
+
+            <div class="input-box">
+                <input type="password" placeholder="Konfirmo fjalekalimin" required>
+            </div>
+
+            <button type="submit" class="btn">Krijo llogari</button>
+
+            <p class="switch">Ke tashmë llogari?
+                <a href="#" onclick="showLogin()">Hyr</a>
+            </p>
+        </form>
+    </div>
+
+</div>
+
+<script>
+function showSignup() {
+    document.querySelector('.login').classList.add('hidden');
+    document.querySelector('.signup').classList.remove('hidden');
+}
+function showLogin() {
+    document.querySelector('.signup').classList.add('hidden');
+    document.querySelector('.login').classList.remove('hidden');
+}
+</script>
+
+</body>
+</html>
